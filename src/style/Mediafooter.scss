@@ -1,0 +1,124 @@
+@media (max-width: 320px) {
+  .continer {
+    width: 90%;
+  }
+  #footer {
+    padding: 60px 0;
+    background: #010938;
+    color: white;
+    text-align: center;
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      &--start {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        .text1 {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          gap: 10px;
+          a {
+            font-size: 18px;
+          }
+          img {
+            padding-left: 70px;
+          }
+        }
+        .text {
+          display: flex;
+          gap: 20px;
+          text-align: center;
+          padding: 10px 0;
+          a{
+            font-size: 15px;
+            text-align: left;
+          }
+        }
+        .icon {
+          font-size: 30px;
+          display: flex;
+          gap: 10px;
+          padding-left: 120px;
+        }
+        .inputtex {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          .inputI {
+            padding: 4px 20px;
+            width: 250px;
+            font-size: 18px;
+            input {
+              border-radius: 5px;
+            }
+          }
+          .inputIi {
+            display: flex;
+            padding: 10px 0;
+            gap: 6px;
+            input {
+              width: 20px;
+              height: 20px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+          button {
+            width: 150px;
+            height: 50px;
+            background: blue;
+            border-radius: 15px;
+            color: white;
+            font-size: 18px;
+            border: none;
+            margin-left:80px;
+          }
+        }
+      }
+      &--and {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0;
+        flex-direction: column;
+        gap: 60px;
+        .foottext {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          h1 {
+            font-size: 25px;
+          }
+          .icons{
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            img{
+                width: 50px;
+            }
+        }
+        }
+
+        .footimg {
+          display: flex;
+          gap: 20px;
+
+          img {
+            width: 120px;
+          }
+        }
+      }
+    }
+  }
+}
